@@ -3,12 +3,11 @@ def square_array(array)
   new_array = []
   
   while counter < array.length do
-    new_array << array[counter] * array[counter]
+    new_array.push(array[counter] * array[counter])
     p array
     counter += 1
   end
 end
-
 
 
 # 	def output_array_elements(array)
