@@ -1,10 +1,16 @@
 def square_array(array)
-  # your code here
+  counter = 0
+  
+  while counter < array.length do
+    new_array.Array
+    array(counter) * array(counter)
+    counter += 1
+  end
 end
 
 
 
-		def output_array_elements(array)
+	def output_array_elements(array)
 			counter = 0
 		
 			while counter < array.length do
